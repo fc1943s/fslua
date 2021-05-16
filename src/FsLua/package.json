@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "build": "tstl Main.fs.ts",
+    "build": "tstl -p tsconfig.json",
     "start": ""
   },
   "dependencies": {
