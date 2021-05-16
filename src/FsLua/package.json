@@ -1,0 +1,14 @@
+{
+  "name": "fslua",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "build": "tstl Main.fs.ts",
+    "start": ""
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript-to-lua": "^0.1"
+  }
+}

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <LangVersion>preview</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="package.json" />
+        <Content Include="babel.config.js" />
+        <Content Include="craco.config.js" />
+        <Content Include="config-overrides.js" />
+        <Content Include=".tsconfig" />
+        <Content Include=".eslintignore" />
+        <Content Include=".eslintrc.js" />
+        <Content Include="tsconfig.json" />
+        <Compile Include="Main.fs"/>
+    </ItemGroup>
+    <Import Project="..\..\.paket\Paket.Restore.targets" />
+
+</Project>
