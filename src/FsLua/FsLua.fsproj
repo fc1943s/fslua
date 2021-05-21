@@ -14,7 +14,8 @@
         <Content Include=".eslintignore" />
         <Content Include=".eslintrc.js" />
         <Content Include="tsconfig.json" />
-        <Compile Include="Main.fs"/>
+        <Compile Include="WowApi.fs" />
+        <Compile Include="Main.fs" />
     </ItemGroup>
     <Import Project="..\..\.paket\Paket.Restore.targets" />
 
